@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=M+PLUS+Rounded+1c:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+  li {
+    list-style-type: none;
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Caveat", cursive;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  }
+
+  
+ul {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  
+  .logo-name {
+    font-family: "Caveat", cursive;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+  }
+  
+  nav {
+    display: flex;
+    background-color:black;
+    color:pink;
+  }
+  
+.logo-name:hover {
+    animation: heartBeat;
+    animation-duration: 4s;
+  }
+  
+  a {
+    text-decoration: none;
+    color:whitesmoke;
+  }
+  
+  .container {
+    display: flex;
+    padding-left: 20px;
+    margin-left: 100px;
+  }
+
+  p{
+      padding-left: 10px;
+  }
+
+  footer {
+    margin-top:100px ;
+    background-color: black;
+    color: white;
+     /* padding-top: 38px; */
+    padding-bottom: 16px;
+    text-align: center;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    /* display: flex;
+    justify-content: space-around; */
+    /* border-radius: 20px; */
+  }
+  .fa-github {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+  }
+  
+  .fa-facebook-square
+   {
+    font-size: 40px;
+  }
+  .fa-instagram {
+    font-size: 40px;
+  }
+  .icon {
+    padding-top: 29px;
+    padding-bottom: 15px;
+  }
+   
+  .heading{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 100px;
+    border-bottom: 2px solid black;
+    border-radius: 100px;
+  }
+  .content-1{
+    font-family: 'Fira Sans', sans-serif;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .heading{
+      font-size: 20px;
+    }
+    .content-1{
+      font-size: 2px;
+    }
+
+  }

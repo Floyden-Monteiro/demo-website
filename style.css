@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=M+PLUS+Rounded+1c:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Caveat", cursive;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+ul {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.logo-name {
+  font-family: "Caveat", cursive;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  color: pink;
+}
+
+.logo-name:hover {
+  animation: heartBeat;
+  animation-duration: 4s;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  margin-top: 10px;
+  padding-left: 20px;
+
+  margin-left: 100px;
+}
+
+img {
+  width: 556px;
+  padding-top: 50px;
+  margin-right: 60px;
+}
+
+.left-container {
+  padding-top: 130px;
+
+  width: 50%;
+}
+
+.right-container {
+  width: 50%;
+}
+footer {
+  background-color: black;
+  color: white;
+  /* padding-top: 38px; */
+
+  text-align: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  /* display: flex;
+  justify-content: space-around; */
+  /* border-radius: 20px; */
+}
+
+.fa-github {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 40px;
+}
+
+.fa-facebook-square {
+  font-size: 40px;
+}
+
+.body-text {
+  font-family: "Dancing Script", cursive;
+  font-size: 80px;
+  color: #242582;
+}
+
+.body-p {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.icon {
+  padding-top: 29px;
+  padding-bottom: 15px;
+}
+
+.fa-instagram {
+  font-size: 40px;
+}
+
+button {
+  margin-top: 30px;
+  color: cyan;
+  background-color: blue;
+  padding: 15px 25px 15px 25px;
+  border: none;
+  border-radius: 20px;
+  transition: transform 450ms;
+}
+
+button:hover {
+  transform: scale(1.08);
+  opacity: 1;
+  background-color: black;
+  color: black;
+}
+
+.fab {
+  transition: transform 450ms;
+}
+
+.fab:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+.footer-text {
+  padding: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    width: 1000px;
+  }
+  li {
+    padding-top: 5px;
+    font-size: 15px;
+  }
+  .container{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 1px;
+  }
+  img{
+    width: 300px;
+    padding-right: 50px;
+  }
+  .body-text{
+    font-size: 50px;
+    
+  }
+
+.body-p{
+  font-size: 20px;
+}
+}

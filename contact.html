@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./contact.css">
+ 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    
+    <script
+      src="https://kit.fontawesome.com/2611cfb531.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Mini project</title>
+  </head>
+  <body>
+    <nav>
+      <h1 class="logo-name animate__pulse">Fs</h1>
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="blog.html"><li>Blog</li></a>
+        <a href="project.html"><li>Project</li></a>
+        <a href="contact.html"><li>Contact Us</li></a>
+      </ul>
+    </nav>
+    <h1>Contact me !</h1>
+    <br />
+
+    <div class="container-contact">
+      <form method="POST" action="contact.php">
+        <label for="fname">First Name</label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="First name.."
+        /><br />
+
+        <label for="lname">Last Name</label><br />
+        <input type="text" name="lname" id="lname"  placeholder="Last name.." /><br />
+
+        <label for="mail">E-mail</label><br />
+        <input type="email" name="email" id="email" placeholder="Enter your mail" /><br />
+
+        <label for="num">Contact Number</label><br />
+        <input
+          type="tel"
+          placeholder="Enter your number"
+          maxlength="10"
+          name="mobile"
+          id="email"
+        /><br />
+
+        <label for="Describe"
+          >Describe what you want to contact me for here</label
+        ><br />
+        <textarea name="desc" id="desc" cols="56" rows="3"></textarea><br />
+
+        <button class="submit">Submit</button>
+      </form>
+    </div>
+
+    <footer>
+      <div class="icon">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-github"></i>
+        <i class="fab fa-facebook-square"></i>
+      </div>
+      <p class="footer-text">© Dx Private Limited</p>
+    </footer>
+  </body>
+</html>

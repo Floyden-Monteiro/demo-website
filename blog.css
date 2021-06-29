@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=M+PLUS+Rounded+1c:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+li {
+  list-style-type: none;
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Caveat", cursive;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+ul {
+  display: flex;
+  margin-bottom: 0px;
+
+  padding-left: 3px;
+}
+
+.logo-name {
+  font-family: "Caveat", cursive;
+  font-size: 20px;
+  margin-top: 9px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+
+  background-color: black;
+  color: pink;
+}
+
+.logo-name:hover {
+  animation: heartBeat;
+  animation-duration: 4s;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  padding-left: 20px;
+  margin-left: 100px;
+}
+
+p {
+  padding-left: 10px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  /* padding-top: 38px; */
+  padding-bottom: 16px;
+  text-align: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  /* display: flex;
+    justify-content: space-around; */
+  /* border-radius: 20px; */
+}
+.fa-github {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 40px;
+}
+
+.fa-facebook-square {
+  font-size: 40px;
+}
+.fa-instagram {
+  font-size: 40px;
+}
+
+.blog-1 {
+  background-color: blue;
+  width: 50%;
+  color: white;
+  align-items: center;
+  padding-top: -50px;
+}
+
+.card {
+  background-color:white;
+  margin-left: -30px;
+  margin: 10px;
+  padding: 5px;
+  box-shadow:3px 3px 5px 6px #ccc;
+}
+
+img {
+  padding-top: 1px;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
+.card{
+  transition: transform 450ms;
+
+}
+
+.card:hover{
+  transform: scale(1.08);
+  opacity: 1;
+  
+}
+
+
+/* @media only screen and (max-width: 600px) {
+.cool-1{
+  display: grid;
+  grid-template-columns: auto;
+}
+.card{
+  align-items: center;
+}
+} */

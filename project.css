@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=M+PLUS+Rounded+1c:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Caveat", cursive;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+ul {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.logo-name {
+  font-family: "Caveat", cursive;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  color: pink;
+}
+
+.logo-name:hover {
+  animation: heartBeat;
+  animation-duration: 4s;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+footer {
+  justify-content: center;
+  background-color: black;
+  color: white;
+  /* padding-top: 38px; */
+  padding-bottom: 6px;
+  text-align: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  /* display: flex;
+    justify-content: space-around; */
+  /* border-radius: 20px; */
+}
+
+.fa-github {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 40px;
+}
+
+.fa-facebook-square {
+  font-size: 40px;
+}
+.fa-instagram {
+  font-size: 40px;
+}
+.fa-globe-asia{
+  font-size: 60px;
+}
+
+.icon {
+  padding-top: 29px;
+  padding-bottom: 15px;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.theader {
+  text-align: centers;
+}
+
+img{
+  background: white;
+  height: 150px;
+  margin: 30px;
+  border-radius: 10px;
+  
+
+}
+
+
+.icon-cool{
+  padding: 30px;
+  font-family: 'Varela Round', sans-serif;
+  transition: transform 450ms;
+}
+
+.image1:hover{
+  transform: scale(1.1);
+}
+
+.cool{
+  display: flex;
+  margin: 150px;
+  margin-left:170px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.twitter{
+  font-size: 60px;
+  padding: 20x;
+}
+
+.image1{
+
+  background-color:white;
+  margin-top: -50px;;
+  margin-bottom: -50px;;
+  padding-bottom: 50px;
+  margin-left: 150px;
+  box-shadow:3px 3px 5px 6px #ccc;
+  color:black;
+  border-radius: 15px;
+  transition: transform 450ms;
+  font-family: 'Varela Round', sans-serif;
+
+}
+
+p:active{
+  color: black;
+}
+
+p{
+  color: black;
+}
+
+.footer-text{
+  color: white;
+}
